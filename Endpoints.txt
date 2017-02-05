@@ -1,2 +1,14 @@
-(1) http://gucmessenger-72dab.firebaseapp.com/api/authenticate/email/pass  -->  {'authenticated' : 'true'/'false'}
-(2) http://gucmessenger-72dab.firebaseapp.com/api/courses/major/semester  -->  {'Courses' : *courses string*}
+
+(1) http://localhost:4000/api/authenticate/ibraheem.hindi/123  -->  {'authenticated' : 'false'}
+
+
+(2) http://localhost:4000/api/courses/Computer Science & Engineering/6  -->  {'Courses' : *courses string*}
+
+
+Deployment --> https://scotch.io/tutorials/how-to-deploy-a-node-js-app-to-heroku
+
+
+2017-02-05T20:27:11.233554+00:00 heroku[router]: at=error code=H10 desc="App cra
+shed" method=GET path="/favicon.ico" host=guc-messenger.herokuapp.com request_id
+=6072b432-6703-43ca-b0ea-d167f9f39950 fwd="156.174.221.135" dyno= connect= servi
+ce= status=503 bytes=

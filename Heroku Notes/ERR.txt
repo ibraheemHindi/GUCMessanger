@@ -1,0 +1,6 @@
+2017-02-05T21:12:51.004451+00:00 heroku[router]: at=error code=H20 desc="App boo
+t timeout" method=GET path="/" host=guc-messenger.herokuapp.com request_id=6208b
+768-d99e-462b-bc34-2dc6c499af5d fwd="156.174.221.135" dyno= connect= service= st
+atus=503 bytes=
+2017-02-05T21:13:14.669804+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web
+process failed to bind to $PORT within 60 seconds of launch

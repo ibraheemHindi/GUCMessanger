@@ -24,6 +24,11 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+app.get('/favicon.ico' , function(req,res){
+
+	res.json({'message' : 'FUCK YOU'});
+
+});	
 
 // create our router
 var router = express.Router();
@@ -34,7 +39,6 @@ router.use(function(req, res, next) {
 	console.log('Something is happening.');
 	next();
 });
-
 
 //Test this at http://localhost:4000/api/authenticate/<email>/<pass>   -----------   http not https please :D
 
@@ -108,6 +112,4 @@ router.route('/courses/:m/:s').get(function(req,res){
 
 app.use('/api', router);
 
-app.listen(4000,function(){
-	console.log('server up and running on http://localhost:4000');
-});
+app.listen(4000 | process.env.PORT);
