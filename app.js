@@ -112,4 +112,4 @@ router.route('/courses/:m/:s').get(function(req,res){
 
 app.use('/api', router);
 
-app.listen(4000 | process.env.PORT);
+app.listen(process.env.PORT || 8080);
