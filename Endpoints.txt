@@ -1,0 +1,2 @@
+(1) http://gucmessenger-72dab.firebaseapp.com/api/authenticate/email/pass  -->  {'authenticated' : 'true'/'false'}
+(2) http://gucmessenger-72dab.firebaseapp.com/api/courses/major/semester  -->  {'Courses' : *courses string*}
